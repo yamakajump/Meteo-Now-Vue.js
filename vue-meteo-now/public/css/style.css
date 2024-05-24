@@ -1,0 +1,106 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3462a7; /* Nouveau fond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff; /* Nouvelle couleur de fond pour le conteneur */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+#submitBtn {
+    background-color: #3462a7; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de police */
+    border: none; /* Suppression de la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    transition: box-shadow 0.3s;
+}
+
+#submitBtn:hover {
+    background-color: #406aa8; /* Couleur de fond légèrement plus sombre */
+}
+
+.forecast-info {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.forecast-info p {
+    margin: 5px 0;
+}
+
+.forecast-info img {
+    width: 50px;
+    height: 50px;
+}
+
+input[type="text"] {
+    padding: 7px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de la police */
+    border: 2px solid #3462a7; /* Bordure */
+    border-radius: 5px; /* Arrondir les coins */
+    transition: border-color 0.3s ease; /* Animation au survol */
+}
+
+/* Effet au survol */
+input[type="text"]:focus {
+    border-color: #406aa8; /* Couleur de la bordure au focus */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+
+
+
